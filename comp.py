@@ -146,7 +146,7 @@ class GenieOpenAI(OpenAI):
                         ),
                     )
                     for choice in sub_choices
-                ]
+                ]    
             )
         return LLMResult(
             generations=generations, llm_output={

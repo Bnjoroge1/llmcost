@@ -1,0 +1,2 @@
+[console_scripts]
+chatdbg = chatdbg.__main__:main
